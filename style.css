@@ -1,0 +1,113 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: beige;
+}
+
+h1 {
+  font-family: Times New Roman;
+  font-size: 50px;
+  text-align: center;
+  color: #630d91;
+  top: 10%;
+  left: 38%;
+}
+
+.startBox {
+  width: 200px;
+  height: 200px;
+  background-color: #de6f1b;
+  border-radius: 100px;
+  top: 40%;
+  position: absolute;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.sideBox {
+  width: 140px;
+  height: 140px;
+  background-color: orange;
+  border-radius: 70px;
+  text-align: center;
+  line-height: 8;
+}
+
+.boxOne {
+  position: absolute;
+  left: 24%;
+  top: 30%;
+
+}
+
+.boxTwo {
+  position: absolute;
+  left: 28%;
+  bottom: 15%;
+}
+
+.boxThree {
+  position: absolute;
+  right: 24%;
+  top: 30%;
+}
+
+.boxFour {
+  position: absolute;
+  right: 28%;
+  bottom: 15%;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  background-color: #E3DBE3;
+  padding: 10px;
+  font-size: 20px;
+}
+
+img {
+  width: 30%;
+
+}
+
+.startLink {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #2a063d;
+}
+
+.programsLink {
+  color: black;
+}
+
+.fruit {
+  position: absolute;
+  top: 21%;
+  left: 24%;
+  width: 100px;
+}
+
+.mainTitle {
+  position: absolute;
+  top: 12%;
+}
+
+p {
+  font-family: cursive;
+  color: #472C26;
+}
+
+.end {
+  display: flex;
+  justify-content: center;
+}
